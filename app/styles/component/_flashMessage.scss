@@ -1,0 +1,31 @@
+$flashMessageBorderRadius : 5px;
+
+.flashMessage {
+  padding: $halfGutter;
+  border-radius: $flashMessageBorderRadius;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+  padding-left: 20px;
+}
+
+.flashMessage-error {
+  color: #FDF6F5;
+  background: #E52904;
+  border-color: #B44F52;
+}
+
+.flashMessage-note {
+  color: #5D5C5C;
+  background: #FFEFBA;
+  border-color: #FFB900;
+}
+
+.flashMessage-success {
+  background: #ACDD98;
+  color: #EFF8EC;
+  border-color: #344D1B;
+}
